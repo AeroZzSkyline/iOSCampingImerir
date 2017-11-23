@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F5DE4361FC40E3900A7BE5E /* BookingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DE4351FC40E3900A7BE5E /* BookingsTableViewController.swift */; };
+		3F5DE4381FC40E8200A7BE5E /* ActivitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DE4371FC40E8200A7BE5E /* ActivitiesTableViewController.swift */; };
+		3F5DE43A1FC4114B00A7BE5E /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DE4391FC4114B00A7BE5E /* Activity.swift */; };
+		3F5DE43C1FC412DE00A7BE5E /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DE43B1FC412DE00A7BE5E /* Booking.swift */; };
+		3F5DE43E1FC41AFF00A7BE5E /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DE43D1FC41AFF00A7BE5E /* ActivityTableViewCell.swift */; };
+		3F5DE4421FC433F400A7BE5E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DE4411FC433F400A7BE5E /* Photo.swift */; };
+		3F84741F1FBC6FF900BDD725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84741E1FBC6FF900BDD725 /* AppDelegate.swift */; };
+		3F8474211FBC6FF900BDD725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8474201FBC6FF900BDD725 /* ViewController.swift */; };
+		3F8474241FBC6FF900BDD725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8474221FBC6FF900BDD725 /* Main.storyboard */; };
+		3F8474261FBC6FF900BDD725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8474251FBC6FF900BDD725 /* Assets.xcassets */; };
+		3F8474291FBC6FF900BDD725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8474271FBC6FF900BDD725 /* LaunchScreen.storyboard */; };
+		3FFBBEC61FC6C2E9003784B0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBBEC51FC6C2E9003784B0 /* MapViewController.swift */; };
+		69508CA31AB61732F827C748 /* libPods-CampingImerir.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA319FD4E1DFD3AA8F8B2C7 /* libPods-CampingImerir.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CA319FD4E1DFD3AA8F8B2C7 /* libPods-CampingImerir.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CampingImerir.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5DE4351FC40E3900A7BE5E /* BookingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsTableViewController.swift; sourceTree = "<group>"; };
+		3F5DE4371FC40E8200A7BE5E /* ActivitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewController.swift; sourceTree = "<group>"; };
+		3F5DE4391FC4114B00A7BE5E /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		3F5DE43B1FC412DE00A7BE5E /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		3F5DE43D1FC41AFF00A7BE5E /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
+		3F5DE4411FC433F400A7BE5E /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		3F84741B1FBC6FF900BDD725 /* CampingImerir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampingImerir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F84741E1FBC6FF900BDD725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F8474201FBC6FF900BDD725 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F8474231FBC6FF900BDD725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F8474251FBC6FF900BDD725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8474281FBC6FF900BDD725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F84742A1FBC6FF900BDD725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFBBEC51FC6C2E9003784B0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A9F348B5C503EFC9E0A14143 /* Pods-CampingImerir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampingImerir.release.xcconfig"; path = "Pods/Target Support Files/Pods-CampingImerir/Pods-CampingImerir.release.xcconfig"; sourceTree = "<group>"; };
+		C1EA8F303D4A6D16FDB71ADA /* Pods-CampingImerir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampingImerir.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CampingImerir/Pods-CampingImerir.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8474181FBC6FF900BDD725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69508CA31AB61732F827C748 /* libPods-CampingImerir.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2404CEA16BFE5DF75638CB3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1EA8F303D4A6D16FDB71ADA /* Pods-CampingImerir.debug.xcconfig */,
+				A9F348B5C503EFC9E0A14143 /* Pods-CampingImerir.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F8474121FBC6FF900BDD725 = {
+			isa = PBXGroup;
+			children = (
+				3F84741D1FBC6FF900BDD725 /* CampingImerir */,
+				3F84741C1FBC6FF900BDD725 /* Products */,
+				2404CEA16BFE5DF75638CB3F /* Pods */,
+				B0E7116903810ED0AC798BB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F84741C1FBC6FF900BDD725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F84741B1FBC6FF900BDD725 /* CampingImerir.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F84741D1FBC6FF900BDD725 /* CampingImerir */ = {
+			isa = PBXGroup;
+			children = (
+				3F84741E1FBC6FF900BDD725 /* AppDelegate.swift */,
+				3F8474201FBC6FF900BDD725 /* ViewController.swift */,
+				3F8474221FBC6FF900BDD725 /* Main.storyboard */,
+				3FFBBEC51FC6C2E9003784B0 /* MapViewController.swift */,
+				3F5DE4351FC40E3900A7BE5E /* BookingsTableViewController.swift */,
+				3F5DE4371FC40E8200A7BE5E /* ActivitiesTableViewController.swift */,
+				3F5DE43D1FC41AFF00A7BE5E /* ActivityTableViewCell.swift */,
+				3F5DE4391FC4114B00A7BE5E /* Activity.swift */,
+				3F5DE43B1FC412DE00A7BE5E /* Booking.swift */,
+				3F5DE4411FC433F400A7BE5E /* Photo.swift */,
+				3F8474251FBC6FF900BDD725 /* Assets.xcassets */,
+				3F8474271FBC6FF900BDD725 /* LaunchScreen.storyboard */,
+				3F84742A1FBC6FF900BDD725 /* Info.plist */,
+			);
+			path = CampingImerir;
+			sourceTree = "<group>";
+		};
+		B0E7116903810ED0AC798BB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CA319FD4E1DFD3AA8F8B2C7 /* libPods-CampingImerir.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F84741A1FBC6FF900BDD725 /* CampingImerir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F84742D1FBC6FF900BDD725 /* Build configuration list for PBXNativeTarget "CampingImerir" */;
+			buildPhases = (
+				3C8534B1DBBAB53BF016342B /* [CP] Check Pods Manifest.lock */,
+				3F8474171FBC6FF900BDD725 /* Sources */,
+				3F8474181FBC6FF900BDD725 /* Frameworks */,
+				3F8474191FBC6FF900BDD725 /* Resources */,
+				E75BD3406FC1F79615BE45F6 /* [CP] Embed Pods Frameworks */,
+				3F8DD18CC7E7AAF7D04B1C81 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampingImerir;
+			productName = CampingImerir;
+			productReference = 3F84741B1FBC6FF900BDD725 /* CampingImerir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8474131FBC6FF900BDD725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3F84741A1FBC6FF900BDD725 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F8474161FBC6FF900BDD725 /* Build configuration list for PBXProject "CampingImerir" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F8474121FBC6FF900BDD725;
+			productRefGroup = 3F84741C1FBC6FF900BDD725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F84741A1FBC6FF900BDD725 /* CampingImerir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8474191FBC6FF900BDD725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8474291FBC6FF900BDD725 /* LaunchScreen.storyboard in Resources */,
+				3F8474261FBC6FF900BDD725 /* Assets.xcassets in Resources */,
+				3F8474241FBC6FF900BDD725 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C8534B1DBBAB53BF016342B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampingImerir-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F8DD18CC7E7AAF7D04B1C81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampingImerir/Pods-CampingImerir-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E75BD3406FC1F79615BE45F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CampingImerir/Pods-CampingImerir-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampingImerir/Pods-CampingImerir-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8474171FBC6FF900BDD725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5DE4421FC433F400A7BE5E /* Photo.swift in Sources */,
+				3F5DE43A1FC4114B00A7BE5E /* Activity.swift in Sources */,
+				3F5DE43C1FC412DE00A7BE5E /* Booking.swift in Sources */,
+				3F8474211FBC6FF900BDD725 /* ViewController.swift in Sources */,
+				3FFBBEC61FC6C2E9003784B0 /* MapViewController.swift in Sources */,
+				3F5DE4361FC40E3900A7BE5E /* BookingsTableViewController.swift in Sources */,
+				3F5DE43E1FC41AFF00A7BE5E /* ActivityTableViewCell.swift in Sources */,
+				3F5DE4381FC40E8200A7BE5E /* ActivitiesTableViewController.swift in Sources */,
+				3F84741F1FBC6FF900BDD725 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F8474221FBC6FF900BDD725 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8474231FBC6FF900BDD725 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F8474271FBC6FF900BDD725 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8474281FBC6FF900BDD725 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F84742B1FBC6FF900BDD725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F84742C1FBC6FF900BDD725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F84742E1FBC6FF900BDD725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1EA8F303D4A6D16FDB71ADA /* Pods-CampingImerir.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CampingImerir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imerir.CampingImerir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F84742F1FBC6FF900BDD725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F348B5C503EFC9E0A14143 /* Pods-CampingImerir.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CampingImerir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imerir.CampingImerir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8474161FBC6FF900BDD725 /* Build configuration list for PBXProject "CampingImerir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F84742B1FBC6FF900BDD725 /* Debug */,
+				3F84742C1FBC6FF900BDD725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F84742D1FBC6FF900BDD725 /* Build configuration list for PBXNativeTarget "CampingImerir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F84742E1FBC6FF900BDD725 /* Debug */,
+				3F84742F1FBC6FF900BDD725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F8474131FBC6FF900BDD725 /* Project object */;
+}

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t9U-8l-f47">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Activities-->
+        <scene sceneID="SIj-7O-FYX">
+            <objects>
+                <navigationController id="mlW-NZ-tRg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Activities" image="ic_list" selectedImage="ic_list" id="y6f-RJ-R9u"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6fu-R1-6ch">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="low-P8-1zC" kind="relationship" relationship="rootViewController" id="Nlm-iT-dYH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dev-Ql-iwN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1790" y="560"/>
+        </scene>
+        <!--Activities View Controller-->
+        <scene sceneID="oaV-gN-jAY">
+            <objects>
+                <tableViewController id="low-P8-1zC" userLabel="Activities View Controller" customClass="ActivitiesTableViewController" customModule="CampingImerir" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Jww-cV-bIz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ActivitiesTableViewCell" rowHeight="150" id="hvD-3c-olM" customClass="ActivityTableViewCell" customModule="CampingImerir" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="150"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hvD-3c-olM" id="cUA-kd-4Fe">
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="150"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VAl-Nv-dM7" userLabel="imageActivity">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" red="0.99473590742150297" green="1" blue="0.97136968405174473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="tintColor" red="0.98702836934678628" green="1" blue="0.99919488159077252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKK-za-4NB">
+                                            <rect key="frame" x="8" y="81" width="334" height="61"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABY-pB-uUO">
+                                            <rect key="frame" x="8" y="8" width="334" height="65"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="imageActivity" destination="VAl-Nv-dM7" id="zNs-Jw-LzF"/>
+                                    <outlet property="label1" destination="ABY-pB-uUO" id="OfZ-5c-sPd"/>
+                                    <outlet property="label2" destination="FKK-za-4NB" id="Qdb-aP-ipn"/>
+                                    <segue destination="fvR-Z1-LKP" kind="show" identifier="ShowDetails" id="G6F-Sz-zjC"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="low-P8-1zC" id="EbV-zp-r54"/>
+                            <outlet property="delegate" destination="low-P8-1zC" id="eYN-FD-gg0"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Activitées du camping" id="7rI-zb-D6a" userLabel="Activities View Controller">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="7qZ-3k-t3P"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VXt-Qr-N20" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2498.4000000000001" y="559.07046476761627"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oZE-G6-Dmn">
+            <objects>
+                <viewController id="fvR-Z1-LKP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vGw-VU-BVM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="hZ2-Pk-szP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lnQ-FW-q6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3319" y="559"/>
+        </scene>
+        <!--Bookings View Controller-->
+        <scene sceneID="TYR-zd-TXf">
+            <objects>
+                <tableViewController id="hGa-ZH-bda" userLabel="Bookings View Controller" customClass="BookingsTableViewController" customModule="CampingImerir" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="duL-0W-455">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="1fp-Pa-1t2">
+                                <rect key="frame" x="0.0" y="28" width="375" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1fp-Pa-1t2" id="Idj-MN-CnW">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="hGa-ZH-bda" id="Wir-cz-VPh"/>
+                            <outlet property="delegate" destination="hGa-ZH-bda" id="T9u-j3-zEc"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Réservations" id="Bwt-yd-DXc" userLabel="Bookings View Controller"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d4x-G4-X9l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2499" y="1367"/>
+        </scene>
+        <!--Bookings-->
+        <scene sceneID="PSV-lr-kpb">
+            <objects>
+                <navigationController id="ocX-sF-UiC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Bookings" image="ic_shopping_basket" selectedImage="ic_shopping_basket" id="Phg-5e-fK3"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="d86-JA-G5E">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hGa-ZH-bda" kind="relationship" relationship="rootViewController" id="avI-gB-1rz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O09-0X-2TB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1790" y="1367"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="jTb-z9-vUN">
+            <objects>
+                <viewController id="RJU-L3-Fv8" customClass="MapViewController" customModule="CampingImerir" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8qR-VJ-zqy" customClass="MGLMapView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="NWW-XW-MrC"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="ic_map" selectedImage="ic_map" id="XKT-ab-ef9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nhX-Ah-h1C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1790" y="-216"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="gHP-gz-El0">
+            <objects>
+                <tabBarController id="t9U-8l-f47" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xy7-zs-dAz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="RJU-L3-Fv8" kind="relationship" relationship="viewControllers" id="27h-eo-l9z"/>
+                        <segue destination="mlW-NZ-tRg" kind="relationship" relationship="viewControllers" id="yuf-eD-TBS"/>
+                        <segue destination="ocX-sF-UiC" kind="relationship" relationship="viewControllers" id="rkK-Va-1yh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nMO-E2-5TB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="470" y="560"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_list" width="36" height="36"/>
+        <image name="ic_map" width="36" height="36"/>
+        <image name="ic_shopping_basket" width="36" height="36"/>
+    </resources>
+</document>
